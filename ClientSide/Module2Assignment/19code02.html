@@ -1,1 +1,74 @@
-index
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="random.js"></script>
+  <link rel="stylesheet" href="mod2style.css">
+
+  <title>Random Images</title>
+
+</head>
+
+<body>
+  <h1>Adrien Middleton</h1>
+  <h2>Swapping Images</h2>
+
+  <section>
+
+    <p>This page shows how to swap Images using Javascript</p>
+
+    <img id="large_img" src="images/snow.jpg" alt="Image of snow"
+    style="border: 1px solid black; margin-right: 13px;">
+
+    <aside>
+      <p id="imgDescr"> Welcom to swapping images!!.</p>
+    </aside>
+
+
+    <div>
+      <p>Click on one of the images below to see it above</p>
+
+      <img src="images/snow_small.jpg"
+        onclick="showImage ('images/snow_large.jpg')"
+        style="border: 1px solid black;margin-right: 3px;"
+        alt="snow photo" />
+
+      <img src="images/mountain_small.jpg"
+      onclick="showImage('images/mountain_large.jpg')"
+      style="border: 1px solid black;margin-right: 13px;"
+      alt="mountain photo" />
+
+      <img src="images/waterfall_small.jpg"
+      onclick="showImage('images/waterfall_large.jpg')"
+      style="border: 1px solid black;margin-right: 13px;"
+      alt="waterfall photo" />
+
+      
+
+
+
+
+
+
+
+    </div>
+
+
+    <p id="demo"></p>
+
+    <script>
+    const d = new Date();
+    document.getElementById("demo").innerHTML = d;
+    </script>
+    
+    
+
+
+
+
+  </section>
+  
+  </body>
+</html>
