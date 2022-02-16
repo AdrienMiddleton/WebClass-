@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css"
+<title></title>
+</head>
+<body>
+<section class="container">
+<header>
+<h1>Chapter 7 Quiz</h1>
+<h2>Using External and Internal Links</h2>
+<h3>Answer the following questions below...</h3>
+</header>
+<ol>
+<li>Your best friend from elementary school finds you on the Internet and says he wants to trade home page links. How do you put a link to his site at www.supercheapsuits.com/~billybob/ on one of your pages? </li>
+<li>What HTML would you use to make it possible for somone clicking the words "About the Authors" at the top of a page to skip down to a list of credits somehwere else on the page?</li>
+<li>If you email address is bon@soir.com, how would you make the text "goodnight greeting" into a link that people can click to compose and send you an email message?</li>
+<li>What attribute can you add to an HTML element to turn it into an anchor?</li>
+<li>What character do you use to link to an anchor?</li>
+<li>How do you tell a browser that the link target document should be downloaded rather than loaded in the window?</li>
+<li>When should you include http:// in a link?</li>
+<li>What mail features can you use in a malito link?</li>
+<li>When is the best case to force a link to open in a new window?</li>
+<li>What pseudo-class do you use to style visited links?</li>
+</ol>
+</section>
+<p style="text-align: center;">
+
+<p><a href="studyGuide.txt">Study Guide for this Quiz</a></p> 
+<p><a href="mailto:adrien.middleton@prcc.edu">Email me if you have any questions!</a></p> 
+
+<a href="Chapter7answers.html">Check Your Answers!</a>
+
+<p><img class="rightImg" src="../Module 3/images/Picture.jpg"></p>
+
+</p>
+</section>
+</body>
+</html>
+
