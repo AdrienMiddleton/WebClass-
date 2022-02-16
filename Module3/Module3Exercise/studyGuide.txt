@@ -1,0 +1,21 @@
+Chapter 7 study Guide
+
+1. To add links to other sites on your page, you do something like: <a href ="http://supercheapsuits.com/~billybob/">Billy Bob's site</a>
+
+2. Make sure to type credits something like <a href="#credits">About the Auhtors</a>
+
+3. When sending an email make sure to include Send me a <a href="malito:bon@soir.com">goodnight greeting</a>!
+
+4. The "id" attribute can be used on any HTML Element only as an anchor.
+
+5. Make sure to use the pound sign which is (#)
+
+6. Use the attribute "Download"
+
+7. Make sure to have the http:// and the rest of the FQDN when linking to an outside page
+
+8. Point the email address the message is to.
+
+9. Avoid forcing links to open in a new window.
+
+10. Use "a:visited".
