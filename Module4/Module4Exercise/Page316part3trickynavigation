@@ -1,32 +1,12 @@
+<div class="content">
 <link rel="stylesheet" href="navigation.css">
-<script src="navigation.js"></script>
 
-
-<div class="container content1">
-    <div class="main">
-        <div class="instruction">
-            <h1>Click Button</h1>
-            <h4>Click button to get nagivation menu</h4>
-        </div>
-        <div class="btn">
-            <button id="button" onclick="openlist()">Open Menu</button>
-        </div>
+    <h1>My Life</h1>
+    <div class="navigation">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">WORK</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
     </div>
-</div>
-<div class="container" id="content2">
-    <div class="lists">
-        <ul>
-            <li><a href="#" onclick="closelist()">HOME</a></li>
-            <li><a href="#" onclick="closelist()">ABOUT</a></li>
-            <li><a href="#" onclick="closelist()">MEDIA</a></li>
-            <li><a href="#" onclick="closelist()">DOWNLOADS</a></li>
-            <li><a href="#" onclick="closelist()">CONTACT</a></li>
-        </ul>
-    </div>
-    <div class="mark">
-        <button id="cross" onclick="closelist()">
-            <span class="m1 m"></span>
-            <span class="m2 m"></span>
-        </button>
-    </div>
-</div>
+  </div>
