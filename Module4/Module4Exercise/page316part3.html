@@ -1,0 +1,75 @@
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- header -->
+<header class="fixed top-0 left-0 w-full text-white">
+  <nav class="shadow bg-slate-700">
+    <div class="relative bg-slate-700 flex h-12 items-center justify-between max-w-screen-lg px-4 mx-auto z-[2]">
+      <a class="flex justify-center items-center font-bold w-24" href="#">
+        <svg width="100%" viewBox="0 0 712 159" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M664 78.517L688.667 103.184L711.823 80.0272L687.157 55.3605L664 78.517Z" fill="white" />
+          <path d="M610.85 77.5101L635.013 101.673L658.17 78.5169L634.006 54.3537L610.85 77.5101Z" fill="#CBD5E1" />
+          <path d="M560 76.9999L584.163 101.163L607.32 78.0067L583.156 53.8434L560 76.9999Z" fill="#94A3B8" />
+          <path d="M612 129.156L636.163 153.32L659.32 130.163L635.156 106L612 129.156Z" fill="#CBD5E1" />
+          <path d="M639 104.156L663.163 128.32L686.32 105.163L662.156 81L639 104.156Z" fill="#F1F5F9" />
+          <path d="M609.843 25.1563L634.007 49.3196L657.163 26.1631L633 1.99991L609.843 25.1563Z" fill="#CBD5E1" />
+          <path d="M636.524 51.8366L660.687 75.9999L683.843 52.8434L659.68 28.6802L636.524 51.8366Z" fill="#F1F5F9" />
+          <path d="M10.5333 145V49.9107C10.5333 38.1211 14.1088 28.4897 21.2599 21.0166C28.4109 13.5434 37.6879 9.80684 49.091 9.80684C62.62 9.80684 73.0244 16.0237 80.3043 28.4575C84.7495 21.7575 89.5169 16.9901 94.6064 14.1554C99.6959 11.2564 105.977 9.80684 113.45 9.80684C125.304 9.80684 134.388 13.5434 140.702 21.0166C147.015 28.4897 150.172 39.2485 150.172 53.2929V145H110.938V59.1877C110.938 54.9357 110.584 52.1333 109.875 50.7804C109.231 49.3631 107.878 48.6544 105.816 48.6544C101.951 48.6544 100.018 51.94 100.018 58.5113V145H60.7839V59.1877C60.7839 55.0002 60.4296 52.1977 59.7209 50.7804C59.0122 49.3631 57.6271 48.6544 55.5656 48.6544C51.7001 48.6544 49.7674 52.1655 49.7674 59.1877V145H10.5333ZM220.886 78.8048V113.594H209.58V145H170.346V61.1204C170.346 44.8856 174.759 32.2908 183.585 23.3358C192.475 14.3165 204.941 9.80684 220.983 9.80684C236.444 9.80684 247.88 13.8978 255.288 22.0796C262.697 30.197 266.402 42.7596 266.402 59.7675V145H227.167V62.3767C227.167 57.2228 226.555 53.6473 225.331 51.6501C224.107 49.653 221.917 48.6544 218.76 48.6544C212.64 48.6544 209.58 53.2285 209.58 62.3767V78.8048H220.886ZM328.419 48.5578V145H289.184V13.0925H339.532C354.865 13.0925 366.751 16.8935 375.19 24.4955C384.596 32.9994 389.299 43.7904 389.299 56.8684C389.299 70.2042 383.469 81.4461 371.808 90.5943L394.421 145H353.254L334.217 102.481V68.5614H337.309C345.555 68.5614 349.678 65.0181 349.678 57.9314C349.678 51.6823 344.911 48.5578 335.376 48.5578H328.419ZM469.194 9.80684C487.877 9.80684 503.886 16.6036 517.222 30.197C530.622 43.7904 537.322 60.0574 537.322 78.998C537.322 98.2608 530.59 114.624 517.125 128.089C503.66 141.554 487.297 148.286 468.034 148.286C448.9 148.286 432.569 141.521 419.04 127.992C405.511 114.463 398.746 98.1319 398.746 78.998C398.746 59.6709 405.543 43.3072 419.136 29.9071C432.794 16.5069 449.48 9.80684 469.194 9.80684ZM468.034 48.6544C459.981 48.6544 453.12 51.6179 447.451 57.5449C441.781 63.4719 438.947 70.6229 438.947 78.998C438.947 87.3731 441.781 94.5242 447.451 100.451C453.184 106.378 460.045 109.342 468.034 109.342C476.151 109.342 483.013 106.41 488.617 100.548C494.287 94.6208 497.121 87.4376 497.121 78.998C497.121 70.5585 494.287 63.4075 488.617 57.5449C483.013 51.6179 476.151 48.6544 468.034 48.6544Z" fill="white" />
+        </svg>
+
+      </a>
+      <a href="#" id="nav_btn" class="block sm:hidden relative w-8 h-8">
+        <span class="block w-8 h-1 bg-white absolute top-2 transition-all duration-300"></span>
+        <span class="block w-8 h-1 bg-white absolute top-4 transition-all"></span>
+        <span class="block w-8 h-1 bg-white absolute top-6 transition-all duration-300"></span>
+      </a>
+      <ul id="nav" class="flex fixed sm:static left-0 top-12 w-full h-screen scale-x-0 z-[2] flex-col bg-slate-700
+                        sm:w-auto sm:h-auto sm:scale-x-100 sm:flex-row transition-all origin-left  sm:border-none border-t border-slate-600">
+        <li class="relative group bg-slate-700">
+          <a href="#" class="uppercase font-bold flex h-12 items-center sm:justify-center px-4 sm:px-8 group-hover:bg-slate-700 sm:group-hover:bg-slate-800 justify-start">Home</a>
+        </li>
+        <li class="relative group bg-slate-700">
+          <a href="#" class="uppercase font-bold flex h-12 items-center sm:justify-center px-4 sm:px-8 group-hover:bg-slate-700 sm:group-hover:bg-slate-800 justify-start nav_01 ">about</a>
+          <ul class="bg-slate-600 sm:bg-slate-700 static w-full -top-full z-[-1] group-hover:top-12 origin-top h-0 scale-y-0 
+                            transition-all duration-300 sm:absolute overflow-hidden  sm:h-auto sm:scale-y-100 nav_02">
+            <li><a href="#" class="flex items-center justify-start sm:justify-center sm:p-2 px-8 py-2 hover:bg-slate-800">about-1</a>
+            </li>
+            <li><a href="#" class="flex items-center justify-start sm:justify-center sm:p-2 px-8 py-2 hover:bg-slate-800">about-2</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="relative group bg-slate-700">
+          <a href="#" class="uppercase font-bold flex h-12 items-center sm:justify-center px-4 sm:px-8 group-hover:bg-slate-700 sm:group-hover:bg-slate-800 justify-start nav_01 ">options</a>
+          <ul class="bg-slate-600 sm:bg-slate-700 static w-full -top-24 z-[-1] group-hover:top-12 origin-top h-0 scale-y-0 
+                            transition-all duration-300 sm:absolute overflow-hidden  sm:h-auto sm:scale-y-100 nav_02">
+            <li><a href="#" class="flex items-center justify-start sm:justify-center sm:p-2 px-8 py-2 hover:bg-slate-800">options-1</a>
+            </li>
+            <li><a href="#" class="flex items-center justify-start sm:justify-center sm:p-2 px-8 py-2 hover:bg-slate-800">options-2</a>
+            </li>
+            <li>
+              <a href="#" class="flex items-center justify-start sm:justify-center sm:p-2 px-8 py-2 hover:bg-slate-800">options-3</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+<!-- header END -->
+
+<!-- main sample -->
+<main class="mt-12">
+  <section class="max-w-screen-lg mx-auto p-4">
+    <h2 class="text-2xl uppercase font-bold">Content</h2>
+    <p class="mt-4 p-4 border">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+      when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
+      containing Lorem Ipsum passages,
+      and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+      Ipsum.
+    </p>
+  </section>
+</main>
+<!-- main END -->
