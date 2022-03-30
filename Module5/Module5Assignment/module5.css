@@ -1,0 +1,23 @@
+.item1 { grid-area: header; color: aliceblue;}
+.item2 { grid-area: menu; color: aliceblue;}
+.item3 { grid-area: main; color: aliceblue;}
+.item4 { grid-area: right; color: aliceblue;}
+.item5 { grid-area: footer; color: aliceblue;}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: #f36e21;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(24, 11, 11, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
