@@ -1,0 +1,167 @@
+body{
+    color: #14dc99;
+    background-color:aliceblue;
+    background: url(images/blue.jpg);
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+.sitetitle{
+    font-size: 40px;
+    background-color: #14dc99;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    text-align: center;
+}
+
+p1{
+    font-size: 40px;
+    background-color: #14dc99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    text-align: justify;
+}
+
+p2{
+    font-size: 40px;
+    background-color: #14dc99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    text-align: justify;
+}
+
+p3{
+    font-size: 40px;
+    background-color: #14dc99;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000000;
+    text-align: justify;
+}
+
+p{
+    color: #14dc99;
+}
+
+h2{
+    color: #14dc99;
+}
+
+h4{
+    color: #14dc99;
+}
+
+li{
+    color: #14dc99;
+}
+
+.rightImg {
+    float: left;
+    padding: 5px 10px 5px 10px;
+    height: 250px;
+}
+
+
+
+.container{
+    margin:5% 10% 5% 10%;
+    padding: 20px;
+}
+
+
+
+
+/*navigation style*/
+.navbar {
+    overflow: hidden;    
+    position: fixed;
+    top: 80px;
+    width: 100%;
+  }
+
+  .navbar a {
+    float: left;
+    display: block;
+    color: #14dc99;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .navbar a:hover {
+    color: #edf3f1;
+    background-color: #f30909;
+  }
+  .container {
+    padding: 18px;
+    margin-top: 25px;
+    height: 2000px;
+  }
+
+  a:link{
+      color: #14dc99;
+      text-decoration: none;
+  }
+
+  a:visited{
+      color: #14dc99;
+  }
+
+  a:hover{
+      background-color: antiquewhite;
+  }
+
+
+  .flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
+ 
