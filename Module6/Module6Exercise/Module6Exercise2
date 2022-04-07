@@ -7,27 +7,27 @@
 
 <div class="gallery">
   <a target="_blank" href="img_5terre.jpg">
-    <img src="../Module 7/images/mountain.jpg" alt="Cinque Terre" width="600" height="400">
+    <img src="images/mountain.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Mountain Landscape!</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="img_forest.jpg">
-    <img src="../Module 7/images/forest.jpg" alt="Cinque Terre" width="600" height="400">
+    <img src="images/forest.jpg" alt="Cinque Terre" width="600" height="400">
   <div class="desc">Forest Area!!!!</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="img_lights.jpg">
-    <img src="../Module 7/images/5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    <img src="images/5terre.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Beautifal Landscape!!!</div>
 </div>
 
 <div class="gallery">
   <a target="_blank" href="img_mountains.jpg">
-    <img src="../Module 7/images/lights.jpg" alt="Cinque Terre" width="600" height="400">
+    <img src="images/lights.jpg" alt="Cinque Terre" width="600" height="400">
   </a>
   <div class="desc">Here are some Lights!!!!</div>
 </div>
