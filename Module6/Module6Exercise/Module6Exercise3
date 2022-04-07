@@ -1,0 +1,18 @@
+<nav>
+    <link rel="stylesheet" href="style3.css">
+    <ul class="menu">
+        <li><a href="index.php">home</a>
+        </li>
+        <li><a href="index.php">products</a>
+
+            <ul>
+                <li><a href="#">product 1</a>
+                </li>
+                <li><a href="#">product 2</a>
+                </li>
+            </ul>
+        </li>
+        <li><a href="index.php">solutions</a>
+        </li>
+    </ul>
+</nav>
